@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.d3128fdc.css",
-    "main.js": "/my-app/static/js/main.a876927d.js",
-    "static/js/787.da558b7b.chunk.js": "/my-app/static/js/787.da558b7b.chunk.js",
-    "static/media/shape.png": "/my-app/static/media/shape.1511f1b019e98c3c0785.png",
-    "index.html": "/my-app/index.html",
-    "main.d3128fdc.css.map": "/my-app/static/css/main.d3128fdc.css.map",
-    "main.a876927d.js.map": "/my-app/static/js/main.a876927d.js.map",
-    "787.da558b7b.chunk.js.map": "/my-app/static/js/787.da558b7b.chunk.js.map"
+    "main.css": "/Contact-Form/static/css/main.d3128fdc.css",
+    "main.js": "/Contact-Form/static/js/main.cf8907b7.js",
+    "static/js/787.da558b7b.chunk.js": "/Contact-Form/static/js/787.da558b7b.chunk.js",
+    "static/media/shape.png": "/Contact-Form/static/media/shape.1511f1b019e98c3c0785.png",
+    "index.html": "/Contact-Form/index.html",
+    "main.d3128fdc.css.map": "/Contact-Form/static/css/main.d3128fdc.css.map",
+    "main.cf8907b7.js.map": "/Contact-Form/static/js/main.cf8907b7.js.map",
+    "787.da558b7b.chunk.js.map": "/Contact-Form/static/js/787.da558b7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3128fdc.css",
-    "static/js/main.a876927d.js"
+    "static/js/main.cf8907b7.js"
   ]
 }
