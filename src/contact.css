@@ -422,6 +422,9 @@
       left: 1%;
       filter: blur(60px);
     }
+    .blur-c{
+        display: none;
+      }
   }
   @media screen and (max-width: 1420px) {
     .blur-c {
