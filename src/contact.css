@@ -365,6 +365,9 @@
   }
   
   @media (max-width: 480px) {
+	.  .blur-c{
+		display: none;
+	}
     .container-c {
       padding: 1.5rem;
     }
