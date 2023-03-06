@@ -47,6 +47,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .FAQ{
+    display:none;
+  }
   
   .contact-form {
     background-color: #808cb8;
@@ -205,6 +208,7 @@
   .contact-info {
     padding: 1.2rem 2.2rem;
     position: relative;
+    background-color: #e3e3e3;
   }
   
   .contact-info .title {
@@ -365,11 +369,26 @@
   }
   
   @media (max-width: 480px) {
-	.  .blur-c{
+    .container-c{
+      padding: 5rem;
+    }
+    .text{
+      display: none;
+    }
+    .information{
+      display: none;
+    }
+    .cwm{
+      display: none;
+    }
+    .FAQ{
+      display:flex;
+    }
+	.blur-c{
 		display: none;
 	}
     .container-c {
-      padding: 1.5rem;
+      padding: .1rem;
     }
   
     .contact-info:before {
@@ -381,7 +400,10 @@
       display: none;
     }
   
-    form,
+    form{
+      padding: 1.7rem 1.6rem;
+    }
+
     .contact-info {
       padding: 1.7rem 1.6rem;
     }
@@ -431,6 +453,9 @@
     .blur-c{
         display: none;
       }
+  .social-media{
+    margin-top: -1.8rem;
+  }
   }
   @media screen and (max-width: 1420px) {
     .blur-c {

@@ -58,7 +58,7 @@ function Contact() {
           </div>
 
         <div className="social-media">
-            <p style={{textAlign:'center'}}>Connect with me</p>
+            <p className='cwm' style={{textAlign:'center'}}>Connect with me</p>
             <div className="social-icons" style={{justifyContent:'center'}}>
               <a href="https://www.facebook.com/yogesh.bari.1069" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f"></i>
@@ -74,6 +74,7 @@ function Contact() {
               </a>
             </div>
           </div>
+          <p className='FAQ' style={{fontSize:'.7rem', paddingTop:'.8rem', marginBottom:'-.5rem'}}>Have any question or suggestion! Please let us know.</p>
         </div>
 
         <div className="contact-form">
@@ -81,7 +82,7 @@ function Contact() {
           <span className="circle two"></span>
 
           <form ref={form} onSubmit={sendEmail}>
-            <h3 className="title">Contact Me</h3>
+            <h3 className="title">Contact Us</h3>
             <div className="input-container-c">
               <input type="text" name="name" className="input" placeholder='Name' pattern="[a-zA-Z]{3,50}" required/>
               {/* <label for=""></label> */}
