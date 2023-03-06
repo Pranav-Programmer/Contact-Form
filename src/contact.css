@@ -425,6 +425,9 @@
       left: 1%;
       filter: blur(60px);
     }
+    .All-header{
+        display: none;
+	}
     .blur-c{
         display: none;
       }
