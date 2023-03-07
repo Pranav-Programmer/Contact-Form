@@ -148,10 +148,17 @@
     transform: translateY(0);
   }
   
+  .button {
+    background: linear-gradient(180deg, #83f6e8 26.71%, #0C8A7B 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(37, 245, 183, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
   .s-button{
     box-shadow: none;
-    left: 50%;
-    margin-left: 35%;
   } 
   
   .btn:hover {
